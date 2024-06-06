@@ -6,7 +6,7 @@ let score = 0;
 
 document.querySelector(".score").textContent = score;
 
-fetch("./data/cards.json")
+fetch("https://your-backend-endpoint/cards")
   .then((res) => res.json())
   .then((data) => {
     cards = [...data, ...data];
