@@ -6,7 +6,7 @@ let score = 0;
 
 document.querySelector(".score").textContent = score;
 
-fetch("https://your-backend-endpoint/cards")
+fetch("https://url-del-api")
   .then((res) => res.json())
   .then((data) => {
     cards = [...data, ...data];

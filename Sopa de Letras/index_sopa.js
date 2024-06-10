@@ -1,4 +1,4 @@
-const apiUrl = 'https://your-backend-api-url/words';
+const apiUrl = 'https://url-del-api';
 
 document.addEventListener('DOMContentLoaded', async () => {
     const wordSearchElement = document.getElementById('word-search');
