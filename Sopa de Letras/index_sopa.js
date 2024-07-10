@@ -1,13 +1,4 @@
-//const apiUrl = 'https://url-el-api';
-const axios = require('axios');
-
-//axios.get('http://C:\Users\47805456\Documents\GitHub\db_esi\api')
-  //  .then(response => {
-    //    console.log(response.data);
-    //})
-    //.catch(error => {
-      //  console.error('Error:', error);
-    //});
+const apiUrl = 'https://url-el-api';
 
 document.addEventListener('DOMContentLoaded', async () => {
     const wordSearchElement = document.getElementById('word-search');
