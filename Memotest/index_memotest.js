@@ -7,17 +7,7 @@ let score = 0;
 document.querySelector(".score").textContent = score;
 
 
-import { getPublicImageUrls } from './path-to-your-backend-file';
-
-const publicId = 'your-generated-public-id'; // Reemplaza con el public_id generado de la imagen
-const { optimizeUrl, autoCropUrl } = getPublicImageUrls(publicId);
-
-console.log('Optimized URL:', optimizeUrl);
-console.log('Auto-cropped URL:', autoCropUrl);
-
-
-
-fetch("autoCropUrl")
+fetch("https://url-del-api")
   .then((res) => res.json())
   .then((data) => {
     cards = [...data, ...data];
