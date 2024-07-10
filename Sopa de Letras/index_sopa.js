@@ -1,12 +1,13 @@
-const apiUrl = 'https://url-el-api';
+//const apiUrl = 'https://url-el-api';
+const word = ["manzana", "banana", "pera", "uva", "naranja"]
 
 document.addEventListener('DOMContentLoaded', async () => {
     const wordSearchElement = document.getElementById('word-search');
     const gridSize = 15;
     const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     
-    const response = await fetch(apiUrl);
-    const words = await response.json();
+  //  const response = await fetch(apiUrl);
+  //  const words = await response.json();
 
     const grid = Array(gridSize).fill().map(() => Array(gridSize).fill(''));
 

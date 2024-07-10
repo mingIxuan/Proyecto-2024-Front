@@ -3,7 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: ;
+    background-color: CBDEE7;
     }
 
 #word-search {
@@ -23,4 +23,3 @@ body {
     font-size: 1.2em;
     font-weight: bold;
 }
-
